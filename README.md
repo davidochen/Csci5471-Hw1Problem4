@@ -1,6 +1,6 @@
 # Csci5471-Hw1Problem4
 
-#Description
+# Description
 A one-time pad used twice unlocks its secrecy, and we are given a list of candidate plaintext files to help decrypt a given ciphertext.
 
 This algorithm uses a database of candidate plaintexts and uses statistical English bigram frequencies from ftable2.csv to score and identify the most likely English plaintext. The approach is XORs the two ciphertexts to remove the key, then uses each candidate database plaintext to get a potential English plaintext, scoring each to find the best fit.
